@@ -1,0 +1,50 @@
+/*
+Flaticon icon font: Flaticon
+Creation date: 09/08/2017 11:50
+*/
+
+@font-face {
+	font-family: "Theme_icon";
+	src: url("Flaticon.eot");
+	src: url("Flaticond41d.eot?#iefix") format("embedded-opentype"),
+		 url("Flaticon.woff") format("woff"),
+		 url("Flaticon.ttf") format("truetype"),
+		 url("Flaticon.svg#Flaticon") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face {
+		font-family: "Theme_icon";
+		src: url("Flaticon.svg#Flaticon") format("svg");
+	}
+}
+
+[class^="theme_icon-"]:before, [class*=" theme_icon-"]:before,
+[class^="theme_icon-"]:after, [class*=" theme_icon-"]:after {
+	font-family: Theme_icon;
+	font-size: 26px;
+	font-style: normal;
+	margin-left: 9px;
+}
+
+.theme_icon-bag:before { content: "\f100"; }        /* Bag - https://www.flaticon.com/free-icon/shopping-bag_126515 */
+.theme_icon-search:before { content: "\f101"; }     /* Search - https://www.flaticon.com/free-icon/loupe_598494 */
+.theme_icon-close:before { content: "\f102"; }      /* Close - https://www.flaticon.com/free-icon/close_463065 */
+.theme_icon-fullscreen:before { content: "\f103"; } /* Fullscreen - https://www.flaticon.com/free-icon/fullscreen_483333 */
+.theme_icon-like:before { content: "\f104"; }       /* Star - https://www.flaticon.com/free-icon/star-favourite_13977 */
+.theme_icon-ruller:before { content: "\f105"; }     /* Ruller - https://www.flaticon.com/free-icon/ruler_474993 */
+.theme_icon-heart:before { content: "\f106"; }      /* Heart - https://www.flaticon.com/free-icon/heart_126471 */
+.theme_icon-null:before { content: "\f107"; }       /* Remove - https://www.flaticon.com/free-icon/remove-button_39 */
+.theme_icon-error:before { content: "\f108"; }      /* Warning - https://www.flaticon.com/free-icon/warning_159608 */
+.theme_icon-close-1:before { content: "\f109"; }    /* Cancel - https://www.flaticon.com/free-icon/cancel_219300 */
+.theme_icon-tick:before { content: "\f10a"; }       /* Done - https://www.flaticon.com/free-icon/done_219311 */
+.theme_icon-share:before { content: "\f10b"; }      /* Share - https://www.flaticon.com/free-icon/share_151864 */
+.theme_icon-comment:before { content: "\f10c"; }    /* Chat - https://www.flaticon.com/free-icon/chat_134680 */
+.theme_icon-link:before { content: "\f10d"; }       /* Link - https://www.flaticon.com/free-icon/link-symbol-of-two-chains-links-linked_34470 */
+.theme_icon-mail:before { content: "\f10e"; }       /* Mail - https://www.flaticon.com/free-icon/envelope_481658 */
+.theme_icon-next:before { content: "\f10f"; }       /* Arrow - https://www.flaticon.com/free-icon/right-arrow_109617 */
+.theme_icon-calendar:before { content: "\f110"; }   /* Calendar - https://www.flaticon.com/free-icon/calendar-empty-page-symbol_52265 */
+.theme_icon-quote:before { content: "\f111"; }      /* Quote - custom */
+
